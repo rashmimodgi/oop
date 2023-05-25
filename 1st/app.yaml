@@ -1,0 +1,7 @@
+runtime: python
+api_version: 1
+threadsafe: true
+
+handlers:                         #on this url, hello.app script will be run , this is decided by handlers
+- url: /.*                        
+  script: hello.app
